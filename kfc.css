@@ -1,0 +1,217 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+/************ 1 ***********/
+
+.header1{
+    background-color: white;
+    width:110%;
+    height: 50px;
+    color: black;
+    display: flex;
+    padding: 20px;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0px 0px 1px;
+  
+
+}
+
+.header1 img {
+    margin-right:30px;
+}
+.header1 button{
+    margin-left: 20px;
+    margin-top: 0;
+    padding: 3px 7px;
+    border-radius: 9px;
+    color: white;
+    background-color:black;
+}
+ .header1 button:hover{
+    color: aqua;
+   cursor: pointer;
+
+}
+/************ 2 ********************/
+
+.header2{
+    background-color:white;
+    width: 110%;
+    height: 100px;
+    color:gray;
+    display: flex;
+    margin-top:5px;
+    align-items: center;
+   
+
+
+}
+ .header2 img{
+   margin-right: 40px;
+   margin-right: px;
+ } 
+ .header2 li,h4:hover{
+    color: black;
+    cursor: pointer;
+ }
+
+
+.header2 li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.righthead{
+    margin-left: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.righthead img,p,h4{
+    margin-left: 5px;
+}
+/****************3****************/
+.header3{
+    background-color: black;
+   
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    
+} 
+.header3 button{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+   
+}
+.header3 button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+/*************title*******/
+.title{
+    margin-top: 50px;
+    margin-left: 50PX;
+}
+/*************food1**********/
+
+
+.food1{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.food1 img{
+   width: 240px;
+   margin-top: 50px;
+   margin-left: 40px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px;
+   border-radius: 10px;
+  
+}
+.food1 h4{
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 70px;
+    
+}
+
+/*****************food2**********/
+.food2{
+    display: flex;
+    justify-content: center;
+}
+.food2 img{
+     width: 240px;
+     margin-top: 50px;
+     margin-left: 40px;
+     border-style: solid;
+     border-color: black;
+     border-width: 1px;
+     border-radius: 10px;
+}
+.food2 h4{
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 70px;
+    
+}
+/************ offlist*********/
+
+.offlist{
+    background-color: white;
+    width: 120%;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 10px;
+}
+.offer img{
+ 
+    width:350px;
+    height: 400px;
+    margin-top: 65px;
+    margin-left: 30px;
+
+}
+/********button************/
+ .buttons{
+
+
+   display:flex ;
+   
+}
+button{
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 70px;
+    border-radius: 30px;
+   
+}
+.offer button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/**********futer**********/
+.futer{
+    background-color:  #212529;
+    color: white;
+    width: 120%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.futcuntent ,h4{
+    margin-left: 70px;
+
+}
+/************two logo************/
+.logo{
+    margin-left: 30px;
+   
+}
+.logo img{
+border-radius: 20px;
+}
+/*********futerlast***********/
